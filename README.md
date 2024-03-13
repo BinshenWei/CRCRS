@@ -9,8 +9,9 @@ In this research, a weakly supervised deep learning model was formulated utilizi
 The results of our survival analysis indicated that CRCRS served as an independent prognostic indicator for both the PLCO (p<0.001) and TCGA (p<0.001) cohorts, with its predictive efficacy remaining unaffected by the clinical staging system. Integration of CRCRS with the TNM staging systems resulted in enhanced accuracy in predicting patient prognosis compared to utilizing the TNM staging system in isolation. Noteworthy features of CRCRS, such as immature tumor mesenchyme, disorganized myxoid gland structures, small clusters of cancer cells, and infiltrating inflammatory cells, were identified. Examination of TCGA CRC multi-omics data revealed potential correlations between CRCRS and the activation of energy production and metabolic pathways, the tumor immune microenvironment, as well as genetic mutations in APC, SMAD2, EF1AKMT4, EPG5 and TANC1.
 - Conclusion
 Our deep learning algorithm identified CRCRS as a prognostic indicator for patients with colorectal cancer. This finding offers a significant approach for stratifying the risk of colorectal cancer and tailoring precise treatment strategies for individual patients.
-<img width="416" alt="image" src="https://github.com/BinshenWei/CRCRS/assets/162391399/34aacf7f-2fbb-47c8-b775-21f181d9a0cc">
-<img width="416" alt="image" src="https://github.com/BinshenWei/CRCRS/files/14588170/Fig1.pdf">
+
+<img width="416" alt="image" src="https://github.com/BinshenWei/CRCRS/assets/162391399/62b0512e-2122-4d90-8574-8585c6df9535">
+
 
 
 ### Prerequisites:
