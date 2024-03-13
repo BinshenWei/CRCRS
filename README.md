@@ -10,7 +10,7 @@ The results of our survival analysis indicated that CRCRS served as an independe
 - Conclusion
 Our deep learning algorithm identified CRCRS as a prognostic indicator for patients with colorectal cancer. This finding offers a significant approach for stratifying the risk of colorectal cancer and tailoring precise treatment strategies for individual patients.
 
-<img width="416" alt="image" src="https://github.com/BinshenWei/CRCRS/assets/162391399/62b0512e-2122-4d90-8574-8585c6df9535">
+<img width="800" alt="image" src="https://github.com/BinshenWei/CRCRS/assets/162391399/62b0512e-2122-4d90-8574-8585c6df9535">
 
 
 
