@@ -58,8 +58,5 @@ To train the prognostic network, use script ./Prognositic/bin/train.py. Run pyth
 To run a model on a test set, use script ./Prognositic/vis/vis_save.py. Run python  ./Prognositic/vis/vis_save.py -h for help regarding
 
 #### Script outputs:
-.csv file with CRCRS(tumor risk score), patients' OS, outcome, patient ID.
+.csv file with CRCRS(Colorectal Cancer Risk Score ), patients' OS, outcome, patient ID.
 To generate heatmap , use script ./Prognositic/vis/vis_save_1.py. Run python  ./Prognositic/vis/vis_save_1.py -h for help regarding input parameters.
-
-
-
