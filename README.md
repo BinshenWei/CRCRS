@@ -38,9 +38,9 @@ DigiPath 0.1.5
 
 #### Script outputs:
 .xlsx file with CRCRS(Colorectal Cancer Risk Score), patients' OS, outcome, patient ID.
-To generate heatmap , use script ./Prognositic/vis/vis_save_1.py. Run python  ./Prognositic/vis/vis_save_1.py -h for help regarding input parameters.
+To generate heatmap , use script . for help regarding input parameters.
 
-
+### Statistical analysis
 
 
 
