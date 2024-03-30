@@ -21,6 +21,13 @@ Tensorboard 2.0.0
 tensorboardX 1.7
 pandas 0.25.3
 lifelines 0.23.4
+TiatoolBox 1.5.1
+DigiPath 0.1.5
+
+```
+
+
+
 
 
 
