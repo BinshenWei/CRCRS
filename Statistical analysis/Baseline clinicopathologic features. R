@@ -1,0 +1,35 @@
+library(survival)
+library(openxlsx)
+library(tableone)
+setwd("/Users/weibinshen/Desktop/未命名文件夹/临床基线表")
+clinic<-read.xlsx('Baseline clinicopathologic features.xlsx')
+varsToFactor <- c("Gender", "Age", "M", "N", "T", "组别",'Status','Stage')
+clinic[varsToFactor] <- lapply(clinic[varsToFactor], factor)
+dput(names(clinic))
+vars <- c("OS", "Status", "Gender", "Age", "M", "T",'CRCRS',"组别")
+tableOne <- CreateTableOne(vars = vars, strata = c("组别"), data = clinic)
+tableOne
+
+print(tableOne,  formatOptions = list(big.mark = ","))
+tab1Mat2 <- print(tableOne, showAllLevels = TRUE, quote = FALSE, noSpaces = TRUE, printToggle = FALSE)
+write.csv(tab1Mat2, file = "Result2_Table1.csv")
+
+
+
+# 进行Shapiro-Wilk检验
+a=shapiro.test(clinic$CRCRS)
+a
+b=shapiro.test(clinic$OS)
+b
+install.packages("Rsolnp") 
+library(compareGroups)
+descrTable( ~ .,method = c(CRCRS = 2), data = clinic)
+
+descrTable(组别 ~ ., data = clinic)
+
+
+restab<-descrTable(组别~ .,  
+           data = clinic,               
+           method = c(CRCRS = 2,OS=2)) 
+restab
+export2xls(restab, file='table1.xlsx')
