@@ -63,7 +63,7 @@ You can set the different parameters by your actual situations, such as the segm
 
 You can set the different parameters by your actual situations, such as the model checkpoint path. Then, you can use <code>python test.py</code>. 
 
-#### Script outputs:
+### Script outputs:
 .xlsx file with CRCRS(Colorectal Cancer Risk Score), patients' OS, outcome, patient ID.
 To generate heatmap , use script . for help regarding input parameters.
 
