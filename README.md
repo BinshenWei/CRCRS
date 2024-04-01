@@ -22,7 +22,6 @@ pandas 0.25.3
 lifelines 0.23.4
 TiatoolBox 1.5.1
 DigiPath 0.1.5
-
 ```
 ### Data Preparation:
 
@@ -64,9 +63,6 @@ You can set the different parameters by your actual situations, such as the mode
 
 ### Script outputs:
 .xlsx file with CRCRS(Colorectal Cancer Risk Score), patients' OS, outcome, patient ID.
-To generate heatmap , use script . for help regarding input parameters.
-
-
 
 ### Statistical analysis
 
