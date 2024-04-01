@@ -4,8 +4,7 @@
 - Methods：In this study, we developed a weakly supervised deep learning model using a cohort of 640 colorectal cancer (CRC) patients from the PLCO dataset and 522 CRC patients from the TCGA dataset. Our goal was to identify new prognostic markers for pathological WSIs. We created the Colorectal Cancer Risk Score (CRCRS) to assess patient prognosis and visualized the pathological phenotype of CRCRS using Grad-CAM. Additionally, we utilized multiomics data from the TCGA CRC cohort to investigate the potential pathogenesis of CRCRS.
 - Results：Our survival analysis revealed that CRCRS was an independent prognostic factor for both the PLCO (p<0.001) and TCGA (p<0.001) cohorts, and its predictive power was independent of the clinical staging system. Combining CRCRS with the TNM staging systems improved the accuracy of the nomogram in predicting patient prognosis compared to using the TNM staging system alone. We identified features of CRCRS, including immature tumor mesenchyme, disordered myxoid gland structures, clusters of small tumor cells, and infiltrating inflammatory cells, as the main underlying cells. Analysis of TCGA CRC data suggested associations between CRCRS and the activation of energy production and metabolic pathways, the tumor immune microenvironment, and genetic alterations in APC, SMAD2, EF1AKMT4, and EPG5.
 - Conclusion：Our deep learning model established the CRCRS as a prognostic predictor for CRC patients. It provides a valuable method for CRC risk stratification and precision treatment of patients.
-![Uploading Figure1-01.png…]()
-
+![Figure1-01](https://github.com/BinshenWei/CRCRS/assets/162391399/f2ce7dfb-dcdb-4895-9fc3-be0e8899a974)
 ### Prerequisites:
 ```
 Python 3.7
